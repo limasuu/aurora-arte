@@ -3,7 +3,7 @@
     --verde-claro: #bcceda;
     --rosa-forte: #c6666c;   
     --rosa-claro: #fedae1;
-    --branco: rgb(250, 244, 247);
+    --branco: #faf4f7;
 }
 
 *{
@@ -24,3 +24,33 @@ a:hover{
 li{
     list-style: none;
 }
+
+h2{
+    color: var(--verde-forte);
+}
+
+body{  
+    display: grid;
+    grid-template: "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+    height: 100vh;
+    grid-template-rows: 20% 10% auto 20%;
+
+    background-color: var(--branco);
+    color: var(--rosa-forte);
+}
+/* ----------------------------------------------- */
+header{
+    grid-area: header;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    max-width: 80vw;
+}
+/* ----------------------------------------------- */

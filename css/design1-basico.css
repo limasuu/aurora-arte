@@ -80,3 +80,50 @@ nav ul{
     color: var(--rosa-forte);
 }
 /* ----------------------------------------------- */
+main{
+    grid-area: main;
+}
+/* ----------------------------------------------- */
+footer{ 
+    grid-area: footer;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--verde-forte);
+    color: var(--branco);
+}
+
+.redes-sociais, .creditos{
+    width: 50vw;
+    padding: 5px 0;
+}
+
+.redes-sociais{    
+    display: flex;
+    justify-content: center;
+}
+
+.creditos{
+    border-top: 1px solid var(--branco);    
+}
+
+.redes-sociais a, .creditos a{    
+    color: var(--branco);
+}
+
+.redes-sociais a{
+    margin: 0 5%;
+    font-size: 1.5rem;    
+}
+
+.creditos p{
+    text-align: center;
+    font-size: 0.8rem;  
+}
+
+.creditos a{
+    font-size: 1.2rem;  
+}

@@ -54,3 +54,29 @@ header{
     max-width: 80vw;
 }
 /* ----------------------------------------------- */
+nav{
+    grid-area: nav;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--rosa-claro);
+    padding: 5px;
+}
+
+nav ul{
+    display: none;
+}
+
+.menu-compacto{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-compacto i{
+    font-size: 1.5rem;
+    color: var(--rosa-forte);
+}
+/* ----------------------------------------------- */

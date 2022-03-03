@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>        
         
         <script src="https://kit.fontawesome.com/15ee9f35ec.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="script/script.js"></script>
 
         <title>Aurora e arte</title>
         <link rel="icon" type="img/png" href="img/favicon.png"/>
@@ -37,7 +38,46 @@
             </ul>              
         </nav>
         <main>
-            
+            <div class="carrossel">
+                <p>Confira meus cursos!</p>
+
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1" checked="checked"/>
+                    <input type="radio" name="radio-btn" id="radio2"/>
+                    <input type="radio" name="radio-btn" id="radio3"/>
+                    <input type="radio" name="radio-btn" id="radio4"/>
+                    <input type="radio" name="radio-btn" id="radio5"/>
+
+                    <div class="navegacao">
+                        <label for="radio1" class="botao" id="btn1" onclick="attContagemSlide(this)"></label>
+                        <label for="radio2" class="botao" id="btn2" onclick="attContagemSlide(this)"></label>
+                        <label for="radio3" class="botao" id="btn3" onclick="attContagemSlide(this)"></label>
+                        <label for="radio4" class="botao" id="btn4" onclick="attContagemSlide(this)"></label>
+                        <label for="radio5" class="botao" id="btn5" onclick="attContagemSlide(this)"></label>
+                    </div>
+
+                    <a href="#" class="slide slide-destaque">                        
+                        <img src="img/curso-aquarela.jpg"/>
+                        <p>Pintura em aquarela</p>
+                    </a>
+                    <a href="#" class="slide">                        
+                        <img src="img/curso-lapis.jpg"/>
+                        <p>Desenho a lápis</p>
+                    </a>
+                    <a href="#" class="slide">                        
+                        <img src="img/curso-lettering.jpg"/>
+                        <p>Lettering</p>
+                    </a>
+                    <a href="#" class="slide">                        
+                        <img src="img/curso-moda.jpg"/>
+                        <p>Desenho de moda</p>
+                    </a>
+                    <a href="#" class="slide">                        
+                        <img src="img/curso-the.jpg"/>
+                        <p>THE</p>
+                    </a>                    
+                </div>              
+            </div>
         </main>
         <footer>
             <div class="redes-sociais">

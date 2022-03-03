@@ -89,6 +89,119 @@ main{
 
     padding: 5vw;
 }
+/* --------------- */
+.carrossel{
+    border: 1px solid var(--verde-claro);
+    border-radius: 10px;
+    padding: 10px 0;
+
+    width: 80vw;
+    overflow: hidden;
+}
+
+.carrossel>p{
+    color: var(--verde-forte);
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+}
+
+.slides{
+    position: relative;
+    padding-bottom: 10%;
+
+    width: 500%;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img{
+    width: 100%;
+    height: 90%;
+}
+
+.slide p{
+    background-color: var(--verde-forte);
+    width: 100%;
+    text-align: center;
+    color: var(--branco);
+    padding: 5px 0;
+}
+/* --------------- */
+.navegacao{
+    position: absolute;
+    z-index: 1;
+    bottom: 1%;
+
+    width: 80vw;    
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    border: 2px solid var(--rosa-forte);
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.botao:not(:last-child){
+    margin-right: 8vw;
+}
+
+.botao:hover{
+    background-color: var(--rosa-forte);
+}
+
+#radio1:checked ~ .slide-destaque{
+    margin-left: 0;
+}
+
+#radio1:checked ~ .navegacao #btn1{
+    background-color: var(--rosa-forte);
+}
+
+#radio2:checked ~ .slide-destaque{
+    margin-left: -20%;
+}
+
+#radio2:checked ~ .navegacao #btn2{
+    background-color: var(--rosa-forte);
+}
+
+#radio3:checked ~ .slide-destaque{
+    margin-left: -40%;
+}
+
+#radio3:checked ~ .navegacao #btn3{
+    background-color: var(--rosa-forte);
+}
+
+#radio4:checked ~ .slide-destaque{
+    margin-left: -60%;
+}
+
+#radio4:checked ~ .navegacao #btn4{
+    background-color: var(--rosa-forte);
+}
+
+#radio5:checked ~ .slide-destaque{
+    margin-left: -80%;
+}
+
+#radio5:checked ~ .navegacao #btn5{
+    background-color: var(--rosa-forte);
+}
+
 /* ----------------------------------------------- */
 footer{ 
     grid-area: footer;

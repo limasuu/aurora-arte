@@ -1,0 +1,30 @@
+@media only screen and (min-width: 768px){
+
+    body{
+        grid-template-rows: 30% 15% auto 20%;
+    }
+
+    .menu-compacto{
+        font-size: 1.5rem;
+    }
+
+    .menu-compacto i{
+        font-size: 2.5rem;
+     }
+
+    main{
+        font-size: 1.5rem;
+    }
+
+    .slides{
+        padding-bottom: 0;
+    }
+
+    .botao{
+        padding: 12px;
+    }
+
+    .redes-sociais a{
+        font-size: 2.2rem;
+    }
+}

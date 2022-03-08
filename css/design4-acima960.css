@@ -1,0 +1,52 @@
+@media only screen and (min-width: 960px){
+
+    body{
+        grid-template-rows: 50% 12% auto 25%;
+    }
+           
+    .menu-compacto{
+        display: none;
+    }
+
+    nav ul{ 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 50%;
+    }
+
+    nav a{
+        color: var(--rosa-forte);
+        font-size: 1.2rem;
+    }
+
+    .carrossel, .navegacao{
+        width: 50vw;
+    }
+
+    .navegacao{
+        bottom: 2%;
+    }
+
+    .slides{
+        padding-bottom: 3%;
+    }
+
+    .botao{
+        padding: 5px;
+        border-radius: 10px;
+    }
+    
+    .botao:not(:last-child){
+        margin-right: 5vw;
+    }
+
+    .contato p{
+        font-size: 1rem;
+    }
+    
+    .contato i{
+        font-size: 1.3rem;
+    }
+}

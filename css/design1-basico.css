@@ -202,7 +202,7 @@ main{
     background-color: var(--rosa-forte);
 }
 /* --------------- */
-.sobre{
+.sobre, .contato{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -233,7 +233,18 @@ main{
 .sobre p::before{
     content: "\2003";
 }
+/* --------------- */
+.contato p{
+    font-size: 0.8rem;
+}
 
+.contato i{
+    font-size: 1.1rem;
+}
+
+.contatos{
+    width: 100%;
+}
 /* ----------------------------------------------- */
 footer{ 
     grid-area: footer;

@@ -54,6 +54,14 @@
         width: 30vw;
     }
 
+    .curso{
+        width: 30%;       
+    }
+
+    .curso p{
+        font-size: 0.9rem;
+    }
+    
     .contato p{
         font-size: 1rem;
     }

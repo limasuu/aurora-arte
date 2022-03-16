@@ -24,6 +24,10 @@
         padding: 12px;
     }
 
+    .curso p{
+        font-size: 1.2rem;
+    }
+    
     .redes-sociais a{
         font-size: 2.2rem;
     }

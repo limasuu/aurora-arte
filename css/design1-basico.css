@@ -25,7 +25,7 @@ li{
     list-style: none;
 }
 
-h2{
+h2, h3{
     color: var(--verde-forte);
 }
 
@@ -202,7 +202,7 @@ main{
     background-color: var(--rosa-forte);
 }
 /* --------------- */
-.sobre, .contato, .cursos{
+.sobre, .contato, .cursos, .area-curso{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -273,6 +273,32 @@ main{
 .contatos{
     width: 100%;
 }
+/* --------------- */
+.area-curso{
+    text-align: center;
+}
+
+.area-curso p, .area-curso li{
+    margin: 2px 0;
+}
+
+.area-curso h2{
+    margin: 10px 0;
+}
+
+.descricao-curso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.descricao-curso img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+
 /* ----------------------------------------------- */
 footer{ 
     grid-area: footer;

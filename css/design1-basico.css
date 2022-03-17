@@ -298,6 +298,37 @@ main{
     margin: 10px 0;
 }
 
+.detalhes-curso{
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid var(--rosa-forte);
+    background-color: var(--rosa-claro);
+    color: var(--rosa-forte);
+    text-align: left;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valor, .incluso-curso p{
+    font-weight: bold; 
+}
+
+.valor{
+    font-size: x-large;       
+}
+
+.parcela-valor{
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+.incluso-curso{
+    padding-top: 10px;
+}
 
 /* ----------------------------------------------- */
 footer{ 

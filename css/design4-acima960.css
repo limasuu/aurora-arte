@@ -69,4 +69,8 @@
     .contato i{
         font-size: 1.3rem;
     }
+
+    .detalhes-curso{
+        width: 60%;
+    }
 }

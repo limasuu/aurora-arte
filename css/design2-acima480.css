@@ -20,6 +20,10 @@
         padding-bottom: 5%;
     }
 
+    .detalhes-curso{
+        width: 80%;
+    }
+
     .redes-sociais a{
         font-size: 1.8rem;
     }

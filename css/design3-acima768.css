@@ -27,6 +27,10 @@
     .curso p{
         font-size: 1.2rem;
     }
+
+    .detalhes-curso{
+        width: 70%;
+    }
     
     .redes-sociais a{
         font-size: 2.2rem;

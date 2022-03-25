@@ -234,6 +234,12 @@ main{
     content: "\2003";
 }
 /* --------------- */
+.cursos p{
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 5px;
+}
+
 .expo-cursos{
     display: flex;
     justify-content: center;
@@ -253,9 +259,7 @@ main{
     height: 90%;
 }
 
-.curso p{
-    text-align: center;
-    padding: 5px;
+.curso p{    
     color: var(--verde-forte);
     font-weight: bold;
     border: 1px solid var(--verde-forte);
@@ -318,11 +322,11 @@ main{
 }
 
 .valor{
-    font-size: x-large;       
+    font-size: 1.5rem;       
 }
 
 .parcela-valor{
-    font-size: small;
+    font-size: 0.8rem;
     padding-bottom: 10px;
 }
 
@@ -354,10 +358,11 @@ main{
     border-radius: 5px;
     background-color: var(--verde-forte);
     color: var(--branco);
-    font-size: medium;
+    font-size: 1.1rem;
     font-weight: bold;
     text-transform: uppercase;
 }
+
 /* ----------------------------------------------- */
 footer{ 
     grid-area: footer;

@@ -77,4 +77,8 @@
     .comprar{
         width: 50%;
     }
+
+    .valor{
+        font-size: 2rem;       
+    }
 }

@@ -81,4 +81,8 @@
     .valor{
         font-size: 2rem;       
     }
+
+    .download{ 
+        margin: 20px;
+    }
 }

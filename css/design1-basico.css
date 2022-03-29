@@ -68,6 +68,15 @@ nav ul{
     display: none;
 }
 
+nav a{
+    color: var(--rosa-forte);    
+    font-size: 1.2rem;
+}
+
+#icone-menu-compacto:hover{
+    cursor: pointer;
+}
+
 .menu-compacto{
     width: 90vw;
     display: flex;
@@ -78,6 +87,53 @@ nav ul{
 .menu-compacto i{
     font-size: 1.5rem;
     color: var(--rosa-forte);
+}
+
+.lista-menu-compacto{
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 0;
+
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+}
+
+.lista-menu-compacto ul{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 80vh;        
+}
+
+.lista-menu-compacto li{
+    padding: 10px 0;    
+    width: 100%;
+    text-align: center;
+    transition: .5s;
+}
+
+.lista-menu-compacto a{
+    font-size: 1.7rem;
+}
+
+.lista-menu-compacto li:hover{
+    transition: .5s;
+    background-color: var(--rosa-forte);
+}
+
+.lista-menu-compacto li:hover a{
+    color: var(--rosa-claro);
+}
+
+.desabilita-scroll{
+    overflow: hidden;
 }
 /* ----------------------------------------------- */
 main{
